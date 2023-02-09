@@ -1,0 +1,23 @@
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.footheadBG {
+    background-color: #1F2937;
+}
+
+.quotesectionBG {
+    background-color: #E5E7EB;
+}
+
+.container {
+    display: flex;
+    border: 4px solid darkslategray;
+    justify-content: center;
+}
+
+.item {
+    border: 5px solid darkgray;
+}
