@@ -6,14 +6,22 @@
 
 ul#horizontal-list {
     list-style: none;
+    font-size: 18px;
+    color: #E5e7eb;
     }
     ul#horizontal-list li {
         display: inline;
     }
 
+.headerlogo {
+    font-size: 24px;
+    color: #f9FaF8;
+}
+
 .darkbg {
     background-color: #1F2937;
     color: #f9FaF8;
+    width: auto;
     }
 
 .about-bold {
@@ -24,8 +32,8 @@ ul#horizontal-list {
 
 .about-section {
     display: flex;
-    justify-content: space-between;
-    padding: 5%;
+    justify-content: space-around;
+    padding: 3% 8% 5% 8%;
 }
 
 .button {
@@ -34,4 +42,20 @@ ul#horizontal-list {
     font-size: 28px;
     border-radius: 8px;
     border: none;
+}
+
+body {
+    width: 85%;
+    margin: auto;
+}
+
+.informationbold {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.informationflex {
+    display: flex;
+    justify-content: space-around;
 }
