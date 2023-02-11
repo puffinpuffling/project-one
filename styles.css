@@ -1,23 +1,37 @@
-h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
-.footheadBG {
-    background-color: #1F2937;
-}
-
-.quotesectionBG {
-    background-color: #E5E7EB;
-}
-
-.container {
+.navbar {
     display: flex;
-    border: 4px solid darkslategray;
-    justify-content: center;
+    background-color: aqua;
+    justify-content: space-around
+    }      
+
+ul#horizontal-list {
+    list-style: none;
+    }
+    ul#horizontal-list li {
+        display: inline;
+    }
+
+.darkbg {
+    background-color: #1F2937;
+    color: #f9FaF8;
+    }
+
+.about-bold {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9FaF8;
 }
 
-.item {
-    border: 5px solid darkgray;
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.button {
+    background-color: #3882F6;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 8px;
+    border: none;
 }
