@@ -1,8 +1,9 @@
 .navbar {
     display: flex;
     background-color: aqua;
-    justify-content: space-around
+    justify-content: space-around;
     }      
+
 
 ul#horizontal-list {
     list-style: none;
@@ -11,6 +12,7 @@ ul#horizontal-list {
     }
     ul#horizontal-list li {
         display: inline;
+        margin: 15px;
     }
 
 .headerlogo {
@@ -32,7 +34,7 @@ ul#horizontal-list {
 
 .about-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 3% 8% 5% 8%;
 }
 
@@ -44,8 +46,17 @@ ul#horizontal-list {
     border: none;
 }
 
+.button2 {
+    background-color: #3882F6;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+}
+
 body {
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
 
@@ -58,4 +69,50 @@ body {
 .informationflex {
     display: flex;
     justify-content: space-around;
+}
+
+img {
+    border-radius: 3%;
+}
+
+p {
+    margin-right: 35px;
+}
+
+.quotesection {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    display: flex;
+}
+
+blockquote {
+    padding: 5%;
+    text-align: center;
+    margin: 5%;
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    color: white
+}
+
+.calltoactioncenter {
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 10%;
+    justify-content: space-between;
+    display: flex;
+    width: 60%;
+}
+
+.footer {
+    justify-content: space-around;
+    display: flex;
+}
+
+a {
+    color: #e5e7eb;
 }

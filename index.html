@@ -10,28 +10,33 @@
 <body>
     <!--Navbar Header-->
     <div class="navbar darkbg">
-        <h2 class="headerlogo">Hackermans home on the web</h4>
+        <div>
+            <h2 class="headerlogo">Hackermans home on the web</h4>
+        </div>
+        <div>
         <ul id="horizontal-list">
-            <li>Link 1</li>
-            <li>Link 2</li>
-            <li>Link 3</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#catpics">Cat pics</a></li>
+            <li><a href="#quote">Quote</a></li>
+            <li><a href="#signup">Sign up</a></li>
         </ul>
+        </div>
     </div>
     <!--About section-->
-    <div class="darkbg about-section">
+    <div id="about" class="darkbg about-section">
         <div style="flex-direction: column;">
             <h1 class="about-bold">This site is awesome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos nulla dicta assumenda quam laudantium corporis quaerat illum mollitia quo ea explicabo natus, placeat facere dolore aspernatur dolor exercitationem non.</p>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias velit, assumenda quam excepturi repudiandae a dolore autem magnam deleniti numquam voluptate, ab ullam. Ad repudiandae omnis consequuntur reiciendis quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro amet provident molestias, dignissimos quis incidunt doloremque minima totam exercitationem ex voluptatem placeat cupiditate, corporis maxime eius? Aspernatur quam beatae veniam?</p>
-            <input class="button" type="button" value="Sign up">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos nulla dicta assumenda quam laudantium corporis quaerat illum mollitia quo ea explicabo natus, placeat facere dolore aspernatur dolor exercitationem non.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias velit, assumenda quam excepturi repudiandae a dolore autem magnam deleniti numquam voluptate, ab ullam. Ad repudiandae omnis consequuntur reiciendis quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro amet provident molestias, dignissimos quis incidunt doloremque minima totam exercitationem ex voluptatem placeat cupiditate, corporis maxime eius? Aspernatur quam beatae veniam?</p>
+                <input class="button" type="button" value="Sign up">
         </div>
         <div>
             <img src="pictures/explosion.png" alt="cool explosion">
         </div>
     </div>
     <!--Random information section-->
-    <div class="informationflex" style="flex-direction: column;">
+    <div id="catpics" class="informationflex" style="flex-direction: column;">
         <div>
             <h1 class="informationbold" style="text-align: center;">Some random information</h1>
         </div>
@@ -53,6 +58,23 @@
             <p>Here is a picture of a cat</p>
             </div>
         </div>
+    </div>
+    <!--Quote block-->
+    <div id="quote" class="quotesection">
+        <blockquote>“Nature has given us all the pieces required to achieve exceptional wellness and health, but has left it to us to put these pieces together.”—Diane McLaren</blockquote>
+    </div>
+    <div id="signup" class="calltoaction">
+        <div class="calltoactioncenter">
+            <div>
+                <h2>Call to action! It's time!</h2>
+                <p>Sign up for our product by clicking on the button right over there!</p>
+            </div>
+            <input type="button" value="Sign up" class="button2">
+        </div>
+    </div>
+    <!-- #Footer -->
+    <div class="darkbg footer">
+        <p>Copyright 2023 by Marcus Hofberg</p>
     </div>
 </body>
 </html>
